@@ -1,0 +1,102 @@
+# Master Full OnePager 10/10 (2026-09-10T05:23:51.361929+00:00)
+
+GREEN 98/98
+
+- [x] wheel import -- 1.7.7
+- [x] version 1.7.7 -- 
+- [x] hardware Superion -- 
+- [x] arch Walking Cat -- 
+- [x] q70 zero reachable -- 
+- [x] q70 determinism -- 
+- [x] q70 sound H*c==s -- 
+- [x] q102 zero reachable -- 
+- [x] q102 determinism -- 
+- [x] q102 sound H*c==s -- 
+- [x] gross zero reachable -- 
+- [x] gross determinism -- 
+- [x] gross sound H*c==s -- 
+- [x] Hx shape 51x102 -- 
+- [x] Hz shape 51x102 -- 
+- [x] orthogonality Hx@Hz?=0 -- 
+- [x] binary -- 
+- [x] Q102 binary audit -- 
+- [x] Q102 rank>0 -- rank=80
+- [x] Q102 row-weight uniform -- w=8
+- [x] Q70 binary audit -- 
+- [x] Q70 rank>0 -- rank=59
+- [x] Q70 row-weight uniform -- w=6
+- [x] Gross binary audit -- 
+- [x] Gross rank>0 -- rank=112
+- [x] Gross row-weight uniform -- w=6
+- [x] Q102 row-weight 8 -- 
+- [x] phi(0)=inf -- 
+- [x] phi(1e-6)>10 -- 14.5
+- [x] phi(20)=0 -- 
+- [x] phi continuity 0.25 -- 
+- [x] phi involution -- max_err=2.5e-13
+- [x] phi monotonic decreasing -- 
+- [x] LLR limits -- LLR(1e-3)=6.91
+- [x] LLR monotonic -- 
+- [x] LLR symmetry -- 
+- [x] Q102 w1 102/102 -- 
+- [x] Q102 w2 5151/5151 -- 
+- [x] Q102 w3 sampled 2000 -- 
+- [x] Q102 w4 sampled 1000 -- 
+- [x] Q102 w5 sampled 500 -- 
+- [x] Q70 w1 70/70 -- 
+- [x] Q70 w2 2415/2415 -- 
+- [x] Gross w1 144/144 -- 
+- [x] Q70 random 500 faithful -- bad=0
+- [x] Q102 random 500 faithful -- bad=0
+- [x] Gross random 500 faithful -- bad=0
+- [x] batch B=8 faithful+eq thr 3765/s -- 2.1ms
+- [x] thr SLO B=8 >700 -- 3765/s
+- [x] batch B=64 faithful+eq thr 4439/s -- 14.4ms
+- [x] thr SLO B=64 >700 -- 4439/s
+- [x] batch B=512 faithful+eq thr 4533/s -- 113.0ms
+- [x] thr SLO B=512 >700 -- 4533/s
+- [x] batch B=2000 faithful+eq thr 4510/s -- 443.4ms
+- [x] thr SLO B=2000 >700 -- 4510/s
+- [x] batch 0 empty -- 
+- [x] zero->zero -- 
+- [x] erasure all->zero -- 
+- [x] hetero priors -- 
+- [x] hetero random -- 
+- [x] uniform reset -- 
+- [x] uniform extreme 1e-12 -- 
+- [x] uniform extreme 0.49 -- 
+- [x] flush -- 
+- [x] streaming 5 history -- 
+- [x] timed -- 
+- [x] BPOSD tiny zero -- 
+- [x] BPOSD exact -- 
+- [x] BPOSD min_sum -- 
+- [x] Auto speed -- joint-bposd
+- [x] Auto accuracy -- joint-bposd
+- [x] Auto balanced -- joint-bposd
+- [x] Auto recommend -- joint-bposd
+- [x] TwoStage q102 -- 
+- [x] SpaceTime 3r -- 306
+- [x] dtype robust -- 
+- [x] license 3tuple -- ('none', True, 'open evaluation (no key set)')
+- [x] q70 hash 16hex -- 2c516ecb6cf72464
+- [x] q102 hash 16hex -- 2703550dd6bd7f46
+- [x] gross hash 16hex -- ad7cb784be57da54
+- [x] hash deterministic -- 
+- [x] Q70 p95<2ms -- 0.10ms
+- [x] Q70 thr2000>800 -- 10092/s
+- [x] Q102 p95<2ms -- 0.23ms
+- [x] Q102 thr2000>800 -- 4509/s
+- [x] Gross p95<2ms -- 0.18ms
+- [x] Gross thr2000>800 -- 5509/s
+- [x] threads nq70 -- 
+- [x] threads nq102 -- 
+- [x] threads nq500 -- 
+- [x] scopes Q102 -- 
+- [x] latency p95<2ms -- p95=146us
+- [x] bridge sim 29 -- 
+- [x] bridge aria 25 -- 
+- [x] bridge cap 70->29 -- 
+- [x] bridge body 29 -- 
+- [x] bridge drop out-of-range -- 
+- [x] gate fits -- 

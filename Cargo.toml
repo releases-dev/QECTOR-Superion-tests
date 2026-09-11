@@ -1,0 +1,42 @@
+[package]
+name = "qector_ionq"
+version = "1.7.7"
+edition = "2021"
+description = "IonQ Superion 256 / Walking Cat production decoder (qector-decoder-v3)"
+authors = ["Guillaume Lessard"]
+license = "LicenseRef-Proprietary"
+publish = false
+
+[lib]
+name = "qector_ionq"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+cuda = []
+cascade = []
+gnn = []
+grpc = []
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+numpy = "0.22"
+ndarray = "0.16"
+rayon = "1.10"
+core_affinity = "0.8"
+libloading = "0.8"
+safetensors = "0.8.0"
+smallvec = "1.16.0"
+bumpalo = "3.20.3"
+fusion-blossom = "0.2.12"
+fastrand = "2.5.0"
+memmap2 = "0.9.11"
+thiserror = "2.0.20"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+opt-level = 3
+panic = "abort" # Eliminates landing pad stack-unwinding overhead
+strip = true
+overflow-checks = false

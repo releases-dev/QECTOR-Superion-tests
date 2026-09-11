@@ -1,0 +1,157 @@
+{
+  "suite": "qector_ionq_test",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-09T10:33:57.234769+00:00",
+  "decoder_version": "1.7.7-production",
+  "target_hardware": "IonQ Superion 256",
+  "total_s": 18.259633399999984,
+  "checks": [
+    {
+      "name": "dims q102 102/102",
+      "ok": true,
+      "detail": "102/102"
+    },
+    {
+      "name": "dims q70 70/70",
+      "ok": true,
+      "detail": "70/70"
+    },
+    {
+      "name": "dims gross 144/144",
+      "ok": true,
+      "detail": "144/144"
+    },
+    {
+      "name": "CSS orthogonality",
+      "ok": true,
+      "detail": "Hx@Hz.T=0"
+    },
+    {
+      "name": "single-block H shape",
+      "ok": true,
+      "detail": "(51, 102)"
+    },
+    {
+      "name": "Binary audit Rust==Appendix-C math",
+      "ok": true,
+      "detail": "102x102 exact"
+    },
+    {
+      "name": "Q102 row-weight 8",
+      "ok": true,
+      "detail": "nnz=816"
+    },
+    {
+      "name": "Q70 binary + non-empty",
+      "ok": true,
+      "detail": "(70, 70)"
+    },
+    {
+      "name": "Gross binary + non-empty",
+      "ok": true,
+      "detail": "(144, 144)"
+    },
+    {
+      "name": "Q70 w1 70/70",
+      "ok": true,
+      "detail": "0.09s"
+    },
+    {
+      "name": "Q102 w1 102/102",
+      "ok": true,
+      "detail": "0.18s"
+    },
+    {
+      "name": "Gross w1 144/144",
+      "ok": true,
+      "detail": "0.28s"
+    },
+    {
+      "name": "Q102 w2 full 5151",
+      "ok": true,
+      "detail": "5151/5151"
+    },
+    {
+      "name": "Q102 w3 sampled 1500",
+      "ok": true,
+      "detail": "1500/1500"
+    },
+    {
+      "name": "Q102 w4 sampled 800",
+      "ok": true,
+      "detail": "800/800"
+    },
+    {
+      "name": "Batch==single determinism",
+      "ok": true,
+      "detail": "B=8"
+    },
+    {
+      "name": "Determinism x3",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "Length-mismatch raises",
+      "ok": true,
+      "detail": "101 vs 102"
+    },
+    {
+      "name": "Zero->zero",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "name": "Erasure all->zero",
+      "ok": true,
+      "detail": "fallback"
+    },
+    {
+      "name": "Heterogeneous priors",
+      "ok": true,
+      "detail": "heterogeneous_qubit_priors"
+    },
+    {
+      "name": "Streaming update/flush",
+      "ok": true,
+      "detail": "SEC"
+    },
+    {
+      "name": "BPOSD smoke",
+      "ok": true,
+      "detail": "102-bit"
+    }
+  ],
+  "perf": {
+    "Q70": {
+      "mean_ms": 0.46847000003253925,
+      "p95_ms": 0.49974499966083386,
+      "thr_2000": 6426.208649344255
+    },
+    "Q102": {
+      "mean_ms": 1.0200960000247505,
+      "p95_ms": 1.0770300004878666,
+      "thr_2000": 3397.2018607151995
+    },
+    "Gross": {
+      "mean_ms": 0.8553625000149623,
+      "p95_ms": 1.0137200000372104,
+      "thr_2000": 3688.0200569286785
+    }
+  },
+  "polynomials": {
+    "l": 51,
+    "A": [
+      22,
+      26,
+      37,
+      50
+    ],
+    "B": [
+      19,
+      28,
+      29,
+      35
+    ]
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "suite": "verify_q102_production MAX-EXTENSIVE v3",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-10T05:18:21.450066+00:00",
+  "decoder_version": "1.7.7-production",
+  "target_hardware": "IonQ Superion 256",
+  "target_arch": "Walking Cat (arXiv:2604.19481)",
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.0"
+  },
+  "polynomials": {
+    "l": 51,
+    "A": [
+      22,
+      26,
+      37,
+      50
+    ],
+    "B": [
+      19,
+      28,
+      29,
+      35
+    ]
+  },
+  "total_s": 4.475423099996988,
+  "checks": [
+    {
+      "name": "q102 dims 102/102",
+      "ok": true,
+      "detail": "102/102"
+    },
+    {
+      "name": "q70 dims 70/70",
+      "ok": true,
+      "detail": "70/70"
+    },
+    {
+      "name": "gross dims 144/144",
+      "ok": true,
+      "detail": "144/144"
+    },
+    {
+      "name": "version pinned",
+      "ok": true,
+      "detail": "1.7.7-production"
+    },
+    {
+      "name": "hardware pinned",
+      "ok": true,
+      "detail": "IonQ Superion 256"
+    },
+    {
+      "name": "from_checks tiny 2x3",
+      "ok": true,
+      "detail": "2/3"
+    },
+    {
+      "name": "unknown code raises",
+      "ok": true,
+      "detail": "nope"
+    },
+    {
+      "name": "Hx shape 51x102",
+      "ok": true,
+      "detail": "(51, 102)"
+    },
+    {
+      "name": "Hz shape 51x102",
+      "ok": true,
+      "detail": "(51, 102)"
+    },
+    {
+      "name": "orthogonality Hx@Hz.T=0",
+      "ok": true,
+      "detail": "CSS"
+    },
+    {
+      "name": "binary matrices",
+      "ok": true,
+      "detail": "GF(2)"
+    },
+    {
+      "name": "Q102 rank 51 <102",
+      "ok": true,
+      "detail": "rank=80"
+    },
+    {
+      "name": "Q102 Rust==Appendix-C",
+      "ok": true,
+      "detail": "102x102 exact"
+    },
+    {
+      "name": "Q102 row-weight all 8",
+      "ok": true,
+      "detail": "min=8 max=8"
+    },
+    {
+      "name": "Q102 artifact 16hex",
+      "ok": true,
+      "detail": "2703550dd6bd7f46"
+    },
+    {
+      "name": "Q70 Rust binary + row-w8>0",
+      "ok": true,
+      "detail": "(70, 70) nnz=420"
+    },
+    {
+      "name": "Q70 hash distinct",
+      "ok": true,
+      "detail": "2c516ecb6cf72464"
+    },
+    {
+      "name": "Gross Rust binary + row-w8>0",
+      "ok": true,
+      "detail": "(144, 144) nnz=864"
+    },
+    {
+      "name": "Gross hash distinct",
+      "ok": true,
+      "detail": "ad7cb784be57da54"
+    },
+    {
+      "name": "Q102 w2 5151/5151",
+      "ok": true,
+      "detail": "1.35s"
+    },
+    {
+      "name": "Q102 w3 sampled 200",
+      "ok": true,
+      "detail": "0.06s"
+    },
+    {
+      "name": "Q102 w4 sampled 100",
+      "ok": true,
+      "detail": "0.03s"
+    },
+    {
+      "name": "Q102 w5 sampled 50",
+      "ok": true,
+      "detail": "0.02s"
+    },
+    {
+      "name": "Gross w2 sampled 1000",
+      "ok": true,
+      "detail": "0.24s"
+    },
+    {
+      "name": "Q70 w2 full 2415",
+      "ok": true,
+      "detail": "0.30s"
+    },
+    {
+      "name": "Q70 random 500 faithful",
+      "ok": true,
+      "detail": "fails=0"
+    },
+    {
+      "name": "Q102 random 500 faithful",
+      "ok": true,
+      "detail": "fails=0"
+    },
+    {
+      "name": "Gross random 500 faithful",
+      "ok": true,
+      "detail": "fails=0"
+    },
+    {
+      "name": "batch==single B=8",
+      "ok": true,
+      "detail": "B=8"
+    },
+    {
+      "name": "batch B=64 thr SLO",
+      "ok": true,
+      "detail": "4483/s"
+    },
+    {
+      "name": "batch B=512 thr SLO",
+      "ok": true,
+      "detail": "4301/s"
+    },
+    {
+      "name": "batch B=2000 thr SLO",
+      "ok": true,
+      "detail": "4416/s"
+    },
+    {
+      "name": "determinism x5",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "length-mismatch raises",
+      "ok": true,
+      "detail": "101 vs 102"
+    },
+    {
+      "name": "empty syndrome raises",
+      "ok": true,
+      "detail": "0 vs 102"
+    },
+    {
+      "name": "zero->zero",
+      "ok": true,
+      "detail": "no false"
+    },
+    {
+      "name": "erasure all->zero",
+      "ok": true,
+      "detail": "full-erasure"
+    },
+    {
+      "name": "erasure 5x zero forced",
+      "ok": true,
+      "detail": "masked"
+    },
+    {
+      "name": "heterogeneous priors",
+      "ok": true,
+      "detail": "heterogeneous_qubit_priors"
+    },
+    {
+      "name": "hetero random priors",
+      "ok": true,
+      "detail": "heterogeneous_qubit_priors"
+    },
+    {
+      "name": "uniform schedule reset",
+      "ok": true,
+      "detail": "uniform"
+    },
+    {
+      "name": "uniform extreme 1e-12",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform extreme 0.49",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "streaming update/flush",
+      "ok": true,
+      "detail": "SEC"
+    },
+    {
+      "name": "streaming 5 history",
+      "ok": true,
+      "detail": "5"
+    },
+    {
+      "name": "strict_verify toggle",
+      "ok": true,
+      "detail": "strict"
+    },
+    {
+      "name": "BPOSDDecoder extensive",
+      "ok": true,
+      "detail": "102-bit"
+    },
+    {
+      "name": "TwoStage q102 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "SpaceTime 3 rounds",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "AutoDecoder speed",
+      "ok": true,
+      "detail": "joint-bposd"
+    },
+    {
+      "name": "dtype robust f-order/strided",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "license 3tuple",
+      "ok": true,
+      "detail": "('none', True, 'open evaluation (no key set)')"
+    },
+    {
+      "name": "latency p95<2ms",
+      "ok": true,
+      "detail": "p95=151us"
+    },
+    {
+      "name": "Q70 p95<2ms",
+      "ok": true,
+      "detail": "0.102ms"
+    },
+    {
+      "name": "Q70 thr2000>800",
+      "ok": true,
+      "detail": "9943/s"
+    },
+    {
+      "name": "Q102 p95<2ms",
+      "ok": true,
+      "detail": "0.245ms"
+    },
+    {
+      "name": "Q102 thr2000>800",
+      "ok": true,
+      "detail": "4321/s"
+    },
+    {
+      "name": "Gross p95<2ms",
+      "ok": true,
+      "detail": "0.229ms"
+    },
+    {
+      "name": "Gross thr2000>800",
+      "ok": true,
+      "detail": "5355/s"
+    }
+  ],
+  "perf": {
+    "Q70": {
+      "mean_ms": 0.09753699967404827,
+      "p50_ms": 0.09709999721962959,
+      "p95_ms": 0.10210999171249568,
+      "p99_ms": 0.10585899071884336,
+      "batch": {
+        "64": 10235.250845574514,
+        "512": 9990.243901644768,
+        "2000": 9942.833677409097
+      }
+    },
+    "Q102": {
+      "mean_ms": 0.22782650026783813,
+      "p50_ms": 0.22275000083027408,
+      "p95_ms": 0.24516000194125814,
+      "p99_ms": 0.42140199133427797,
+      "batch": {
+        "64": 4602.065177095771,
+        "512": 4464.235111855858,
+        "2000": 4320.902169768942
+      }
+    },
+    "Gross": {
+      "mean_ms": 0.18542050042015035,
+      "p50_ms": 0.1795999996829778,
+      "p95_ms": 0.22918000395293375,
+      "p99_ms": 0.28135600281530054,
+      "batch": {
+        "64": 5610.589989516434,
+        "512": 5454.1716428511045,
+        "2000": 5354.603245204043
+      }
+    }
+  }
+}

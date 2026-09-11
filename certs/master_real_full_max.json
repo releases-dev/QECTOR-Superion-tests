@@ -1,0 +1,1044 @@
+{
+  "suite": "master_real_full_max NO TRUNCATION 10/10",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-10T05:51:32.080226+00:00",
+  "decoder_version": "1.7.7-production",
+  "target_hardware": "IonQ Superion 256",
+  "target_arch": "Walking Cat (arXiv:2604.19481)",
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.0",
+    "numpy": "2.4.6"
+  },
+  "passed": 205,
+  "failed": 0,
+  "total": 205,
+  "failures": [],
+  "checks": [
+    {
+      "name": "wheel import",
+      "ok": true,
+      "detail": "1.7.7"
+    },
+    {
+      "name": "version 1.7.7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hardware Superion",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "arch Walking Cat",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pkg version match",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "license 3tuple",
+      "ok": true,
+      "detail": "('none', True, 'open evaluation (no key set)')"
+    },
+    {
+      "name": "q70 hash 16hex",
+      "ok": true,
+      "detail": "2c516ecb6cf72464"
+    },
+    {
+      "name": "q102 hash 16hex",
+      "ok": true,
+      "detail": "2703550dd6bd7f46"
+    },
+    {
+      "name": "gross hash 16hex",
+      "ok": true,
+      "detail": "ad7cb784be57da54"
+    },
+    {
+      "name": "hash distinct per code",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hash deterministic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hash stable across er",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q70 zero reachable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q70 determinism",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q70 sound",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q70 rank>0",
+      "ok": true,
+      "detail": "rank=59"
+    },
+    {
+      "name": "q70 row-weight uniform",
+      "ok": true,
+      "detail": "w=6"
+    },
+    {
+      "name": "q70 H binary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q70 H shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q70 non-empty rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q102 zero reachable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q102 determinism",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q102 sound",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q102 rank>0",
+      "ok": true,
+      "detail": "rank=80"
+    },
+    {
+      "name": "q102 row-weight uniform",
+      "ok": true,
+      "detail": "w=8"
+    },
+    {
+      "name": "q102 H binary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q102 H shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "q102 non-empty rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gross zero reachable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gross determinism",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gross sound",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gross rank>0",
+      "ok": true,
+      "detail": "rank=112"
+    },
+    {
+      "name": "gross row-weight uniform",
+      "ok": true,
+      "detail": "w=6"
+    },
+    {
+      "name": "gross H binary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gross H shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gross non-empty rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 row-weight 8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 CSS orthogonal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 CSS orthogonal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Hx 51x102",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Hz 51x102",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Hx@HzT=0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Hfull binary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 Rust==math shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 Rust==math shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Gross Rust==math shape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "phi(0)=inf",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "phi(1e-6)>10",
+      "ok": true,
+      "detail": "14.5"
+    },
+    {
+      "name": "phi(20)=0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "phi continuity 0.25",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "phi involution 0.3..10",
+      "ok": true,
+      "detail": "2.5e-13"
+    },
+    {
+      "name": "phi involution dense 0.1..15",
+      "ok": true,
+      "detail": "4.9e-11"
+    },
+    {
+      "name": "phi monotonic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LLR limits",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LLR monotonic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LLR symmetry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 w1 102/102",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 w2 5151/5151",
+      "ok": true,
+      "detail": "1.32s"
+    },
+    {
+      "name": "Q102 w3 sampled 2000 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 w4 sampled 1000 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q102 w5 sampled 500 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 w1 70/70",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 w2 2415/2415",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 w3 sampled 1000",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Gross w1 144/144",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Gross w2 sampled 2000",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 random 500 faithful",
+      "ok": true,
+      "detail": "bad=0"
+    },
+    {
+      "name": "Q102 random 500 faithful",
+      "ok": true,
+      "detail": "bad=0"
+    },
+    {
+      "name": "Gross random 500 faithful",
+      "ok": true,
+      "detail": "bad=0"
+    },
+    {
+      "name": "Q102 w6 stress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "batch B=8 faithful+eq thr 2877/s",
+      "ok": true,
+      "detail": "2.8ms"
+    },
+    {
+      "name": "thr SLO B=8 >700",
+      "ok": true,
+      "detail": "2877/s"
+    },
+    {
+      "name": "batch B=64 faithful+eq thr 4546/s",
+      "ok": true,
+      "detail": "14.1ms"
+    },
+    {
+      "name": "thr SLO B=64 >700",
+      "ok": true,
+      "detail": "4546/s"
+    },
+    {
+      "name": "batch B=512 faithful+eq thr 4256/s",
+      "ok": true,
+      "detail": "120.3ms"
+    },
+    {
+      "name": "thr SLO B=512 >700",
+      "ok": true,
+      "detail": "4256/s"
+    },
+    {
+      "name": "batch B=2000 faithful+eq thr 4494/s",
+      "ok": true,
+      "detail": "445.0ms"
+    },
+    {
+      "name": "thr SLO B=2000 >700",
+      "ok": true,
+      "detail": "4494/s"
+    },
+    {
+      "name": "batch 0 empty",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "zero->zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure all->zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure n1 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure n5 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure n10 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure n35 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 7",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure rand 9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hetero priors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hetero random",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform reset",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform extreme 1e-12",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform extreme 1e-09",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform extreme 0.1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform extreme 0.25",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "uniform extreme 0.49",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "flush",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "streaming 5 history",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "streaming update/flush",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "timed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "timed respects deadline",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD tiny zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD exact o0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD exact o1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD exact o2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD min_sum o0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD min_sum o1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD min_sum o2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD LLR finite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD timed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "BPOSD batch2d",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Auto speed",
+      "ok": true,
+      "detail": "joint-bposd"
+    },
+    {
+      "name": "Auto accuracy",
+      "ok": true,
+      "detail": "joint-bposd"
+    },
+    {
+      "name": "Auto balanced",
+      "ok": true,
+      "detail": "joint-bposd"
+    },
+    {
+      "name": "Auto recommend",
+      "ok": true,
+      "detail": "joint-bposd"
+    },
+    {
+      "name": "Auto q70 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Auto q102 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Auto gross zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q70 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q70 q0 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q70 q1 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q70 q2 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q70 q3 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q70 q4 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q102 zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q102 q0 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q102 q1 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q102 q2 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q102 q3 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage q102 q4 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage gross zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage gross q0 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage gross q1 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage gross q2 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage gross q3 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "TwoStage gross q4 faithful",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "SpaceTime 3r",
+      "ok": true,
+      "detail": "210"
+    },
+    {
+      "name": "SpaceTime 5r",
+      "ok": true,
+      "detail": "350"
+    },
+    {
+      "name": "from_checks tiny",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dtype robust all",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "extreme er 1e-12",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "extreme er 1e-09",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "extreme er 0.1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "extreme er 0.25",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "extreme er 0.49",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Q70 p50<1ms",
+      "ok": true,
+      "detail": "0.10ms"
+    },
+    {
+      "name": "Q70 p95<2ms",
+      "ok": true,
+      "detail": "0.11ms"
+    },
+    {
+      "name": "Q70 p99<5ms",
+      "ok": true,
+      "detail": "0.16ms"
+    },
+    {
+      "name": "Q70 thr64>800",
+      "ok": true,
+      "detail": "9172/s"
+    },
+    {
+      "name": "Q70 thr512>800",
+      "ok": true,
+      "detail": "10122/s"
+    },
+    {
+      "name": "Q70 thr2000>800",
+      "ok": true,
+      "detail": "10093/s"
+    },
+    {
+      "name": "Q102 p50<1ms",
+      "ok": true,
+      "detail": "0.22ms"
+    },
+    {
+      "name": "Q102 p95<2ms",
+      "ok": true,
+      "detail": "0.32ms"
+    },
+    {
+      "name": "Q102 p99<5ms",
+      "ok": true,
+      "detail": "0.36ms"
+    },
+    {
+      "name": "Q102 thr64>800",
+      "ok": true,
+      "detail": "4517/s"
+    },
+    {
+      "name": "Q102 thr512>800",
+      "ok": true,
+      "detail": "4532/s"
+    },
+    {
+      "name": "Q102 thr2000>800",
+      "ok": true,
+      "detail": "4535/s"
+    },
+    {
+      "name": "Gross p50<1ms",
+      "ok": true,
+      "detail": "0.18ms"
+    },
+    {
+      "name": "Gross p95<2ms",
+      "ok": true,
+      "detail": "0.19ms"
+    },
+    {
+      "name": "Gross p99<5ms",
+      "ok": true,
+      "detail": "0.23ms"
+    },
+    {
+      "name": "Gross thr64>800",
+      "ok": true,
+      "detail": "5137/s"
+    },
+    {
+      "name": "Gross thr512>800",
+      "ok": true,
+      "detail": "5543/s"
+    },
+    {
+      "name": "Gross thr2000>800",
+      "ok": true,
+      "detail": "5512/s"
+    },
+    {
+      "name": "threads nq70",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "threads nq102",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "threads nq500",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "threads nq2000",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "threads nq17 in 1..8",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "threads nq50 in 1..8",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "threads nq100 in 1..8",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "threads nq200 in 1..8",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "threads nq1000 in 1..8",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "name": "threads nq5000 in 1..8",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "name": "scopes Q102 after 20",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "latency count 20",
+      "ok": true,
+      "detail": "n=20"
+    },
+    {
+      "name": "latency p95<2ms",
+      "ok": true,
+      "detail": "p95=151us"
+    },
+    {
+      "name": "latency mean>0",
+      "ok": true,
+      "detail": "mean=143us"
+    },
+    {
+      "name": "latency reset",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "global latency",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge limit simulator=29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge limit qpu.aria-1=25",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge limit qpu.forte-1=36",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge limit ionq_simulator=29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge sim ideal 29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge live override",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge cap 70->29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge cap 3 stays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge body 29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge drop out-of-range",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gate fits true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "gate fits false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge accept 29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "bridge reject msg",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Gross w1 144 exhaustive",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Gross w2 100 sampled",
+      "ok": true,
+      "detail": "100/100"
+    },
+    {
+      "name": "Gross mem linear",
+      "ok": true,
+      "detail": "100:0.012s 10:0.001s"
+    },
+    {
+      "name": "Wilson CI",
+      "ok": true,
+      "detail": "p=0.05 [0.02,0.11]"
+    },
+    {
+      "name": "Q102 w6 stress 200",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

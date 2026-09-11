@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "qector-ionq"
+version = "1.7.7"
+description = "IonQ Superion 256 / Walking Cat production decoder (proprietary)"
+requires-python = ">=3.9"
+authors = [{ name = "Guillaume Lessard" }]
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "License :: Other/Proprietary License",
+]
+dependencies = ["numpy>=1.24"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "qector_ionq"

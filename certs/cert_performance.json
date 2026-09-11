@@ -1,0 +1,51 @@
+{
+  "suite": "qector_ionq_performance_benchmark MAX-EXTENSIVE v3",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-10T02:37:12.135828+00:00",
+  "decoder_version": "1.7.7-production",
+  "target_hardware": "IonQ Superion 256",
+  "target_arch": "Walking Cat (arXiv:2604.19481)",
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu_count": 8,
+    "python": "3.11.0"
+  },
+  "batch_sizes": [
+    64,
+    512,
+    2000
+  ],
+  "single_shots": 50,
+  "thread_steps": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "results": [
+    {
+      "threads": 1,
+      "q102_throughput": 3900.0,
+      "gross_throughput": 4778.0,
+      "q70_throughput": 8245.0
+    },
+    {
+      "threads": 2,
+      "q102_throughput": 4994.0,
+      "gross_throughput": 6508.0,
+      "q70_throughput": 9453.0
+    },
+    {
+      "threads": 4,
+      "q102_throughput": 10685.0,
+      "gross_throughput": 11549.0,
+      "q70_throughput": 23389.0
+    },
+    {
+      "threads": 8,
+      "q102_throughput": 10248.0,
+      "gross_throughput": 12706.0,
+      "q70_throughput": 23502.0
+    }
+  ]
+}

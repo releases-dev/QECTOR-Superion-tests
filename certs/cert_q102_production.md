@@ -1,0 +1,63 @@
+# Q102 Production Certification MAX-EXTENSIVE (2026-09-10T05:18:21.450066+00:00)
+
+status GREEN | 1.7.7-production | 59/59 passed
+
+- [x] q102 dims 102/102 - 102/102
+- [x] q70 dims 70/70 - 70/70
+- [x] gross dims 144/144 - 144/144
+- [x] version pinned - 1.7.7-production
+- [x] hardware pinned - IonQ Superion 256
+- [x] from_checks tiny 2x3 - 2/3
+- [x] unknown code raises - nope
+- [x] Hx shape 51x102 - (51, 102)
+- [x] Hz shape 51x102 - (51, 102)
+- [x] orthogonality Hx@Hz.T=0 - CSS
+- [x] binary matrices - GF(2)
+- [x] Q102 rank 51 <102 - rank=80
+- [x] Q102 Rust==Appendix-C - 102x102 exact
+- [x] Q102 row-weight all 8 - min=8 max=8
+- [x] Q102 artifact 16hex - 2703550dd6bd7f46
+- [x] Q70 Rust binary + row-w8>0 - (70, 70) nnz=420
+- [x] Q70 hash distinct - 2c516ecb6cf72464
+- [x] Gross Rust binary + row-w8>0 - (144, 144) nnz=864
+- [x] Gross hash distinct - ad7cb784be57da54
+- [x] Q102 w2 5151/5151 - 1.35s
+- [x] Q102 w3 sampled 200 - 0.06s
+- [x] Q102 w4 sampled 100 - 0.03s
+- [x] Q102 w5 sampled 50 - 0.02s
+- [x] Gross w2 sampled 1000 - 0.24s
+- [x] Q70 w2 full 2415 - 0.30s
+- [x] Q70 random 500 faithful - fails=0
+- [x] Q102 random 500 faithful - fails=0
+- [x] Gross random 500 faithful - fails=0
+- [x] batch==single B=8 - B=8
+- [x] batch B=64 thr SLO - 4483/s
+- [x] batch B=512 thr SLO - 4301/s
+- [x] batch B=2000 thr SLO - 4416/s
+- [x] determinism x5 - identical
+- [x] length-mismatch raises - 101 vs 102
+- [x] empty syndrome raises - 0 vs 102
+- [x] zero->zero - no false
+- [x] erasure all->zero - full-erasure
+- [x] erasure 5x zero forced - masked
+- [x] heterogeneous priors - heterogeneous_qubit_priors
+- [x] hetero random priors - heterogeneous_qubit_priors
+- [x] uniform schedule reset - uniform
+- [x] uniform extreme 1e-12 - 
+- [x] uniform extreme 0.49 - 
+- [x] streaming update/flush - SEC
+- [x] streaming 5 history - 5
+- [x] strict_verify toggle - strict
+- [x] BPOSDDecoder extensive - 102-bit
+- [x] TwoStage q102 zero - 
+- [x] SpaceTime 3 rounds - 
+- [x] AutoDecoder speed - joint-bposd
+- [x] dtype robust f-order/strided - 
+- [x] license 3tuple - ('none', True, 'open evaluation (no key set)')
+- [x] latency p95<2ms - p95=151us
+- [x] Q70 p95<2ms - 0.102ms
+- [x] Q70 thr2000>800 - 9943/s
+- [x] Q102 p95<2ms - 0.245ms
+- [x] Q102 thr2000>800 - 4321/s
+- [x] Gross p95<2ms - 0.229ms
+- [x] Gross thr2000>800 - 5355/s

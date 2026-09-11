@@ -1,0 +1,209 @@
+# Master Real Full Max — NO TRUNCATION 10/10 (2026-09-10T05:51:32.080226+00:00)
+
+GREEN 205/205
+
+- [x] wheel import -- 1.7.7
+- [x] version 1.7.7 -- 
+- [x] hardware Superion -- 
+- [x] arch Walking Cat -- 
+- [x] pkg version match -- 
+- [x] license 3tuple -- ('none', True, 'open evaluation (no key set)')
+- [x] q70 hash 16hex -- 2c516ecb6cf72464
+- [x] q102 hash 16hex -- 2703550dd6bd7f46
+- [x] gross hash 16hex -- ad7cb784be57da54
+- [x] hash distinct per code -- 
+- [x] hash deterministic -- 
+- [x] hash stable across er -- 
+- [x] q70 zero reachable -- 
+- [x] q70 determinism -- 
+- [x] q70 sound -- 
+- [x] q70 rank>0 -- rank=59
+- [x] q70 row-weight uniform -- w=6
+- [x] q70 H binary -- 
+- [x] q70 H shape -- 
+- [x] q70 non-empty rows -- 
+- [x] q102 zero reachable -- 
+- [x] q102 determinism -- 
+- [x] q102 sound -- 
+- [x] q102 rank>0 -- rank=80
+- [x] q102 row-weight uniform -- w=8
+- [x] q102 H binary -- 
+- [x] q102 H shape -- 
+- [x] q102 non-empty rows -- 
+- [x] gross zero reachable -- 
+- [x] gross determinism -- 
+- [x] gross sound -- 
+- [x] gross rank>0 -- rank=112
+- [x] gross row-weight uniform -- w=6
+- [x] gross H binary -- 
+- [x] gross H shape -- 
+- [x] gross non-empty rows -- 
+- [x] Q102 row-weight 8 -- 
+- [x] Q70 CSS orthogonal -- 
+- [x] Q102 CSS orthogonal -- 
+- [x] Hx 51x102 -- 
+- [x] Hz 51x102 -- 
+- [x] Hx@HzT=0 -- 
+- [x] Hfull binary -- 
+- [x] Q102 Rust==math shape -- 
+- [x] Q70 Rust==math shape -- 
+- [x] Gross Rust==math shape -- 
+- [x] phi(0)=inf -- 
+- [x] phi(1e-6)>10 -- 14.5
+- [x] phi(20)=0 -- 
+- [x] phi continuity 0.25 -- 
+- [x] phi involution 0.3..10 -- 2.5e-13
+- [x] phi involution dense 0.1..15 -- 4.9e-11
+- [x] phi monotonic -- 
+- [x] LLR limits -- 
+- [x] LLR monotonic -- 
+- [x] LLR symmetry -- 
+- [x] Q102 w1 102/102 -- 
+- [x] Q102 w2 5151/5151 -- 1.32s
+- [x] Q102 w3 sampled 2000 faithful -- 
+- [x] Q102 w4 sampled 1000 faithful -- 
+- [x] Q102 w5 sampled 500 faithful -- 
+- [x] Q70 w1 70/70 -- 
+- [x] Q70 w2 2415/2415 -- 
+- [x] Q70 w3 sampled 1000 -- 
+- [x] Gross w1 144/144 -- 
+- [x] Gross w2 sampled 2000 -- 
+- [x] Q70 random 500 faithful -- bad=0
+- [x] Q102 random 500 faithful -- bad=0
+- [x] Gross random 500 faithful -- bad=0
+- [x] Q102 w6 stress -- 
+- [x] batch B=8 faithful+eq thr 2877/s -- 2.8ms
+- [x] thr SLO B=8 >700 -- 2877/s
+- [x] batch B=64 faithful+eq thr 4546/s -- 14.1ms
+- [x] thr SLO B=64 >700 -- 4546/s
+- [x] batch B=512 faithful+eq thr 4256/s -- 120.3ms
+- [x] thr SLO B=512 >700 -- 4256/s
+- [x] batch B=2000 faithful+eq thr 4494/s -- 445.0ms
+- [x] thr SLO B=2000 >700 -- 4494/s
+- [x] batch 0 empty -- 
+- [x] zero->zero -- 
+- [x] erasure all->zero -- 
+- [x] erasure n1 zero -- 
+- [x] erasure n5 zero -- 
+- [x] erasure n10 zero -- 
+- [x] erasure n35 zero -- 
+- [x] erasure rand 0 -- 
+- [x] erasure rand 1 -- 
+- [x] erasure rand 2 -- 
+- [x] erasure rand 3 -- 
+- [x] erasure rand 4 -- 
+- [x] erasure rand 5 -- 
+- [x] erasure rand 6 -- 
+- [x] erasure rand 7 -- 
+- [x] erasure rand 8 -- 
+- [x] erasure rand 9 -- 
+- [x] hetero priors -- 
+- [x] hetero random -- 
+- [x] uniform reset -- 
+- [x] uniform extreme 1e-12 -- 
+- [x] uniform extreme 1e-09 -- 
+- [x] uniform extreme 0.1 -- 
+- [x] uniform extreme 0.25 -- 
+- [x] uniform extreme 0.49 -- 
+- [x] flush -- 
+- [x] streaming 5 history -- 
+- [x] streaming update/flush -- 
+- [x] timed -- 
+- [x] timed respects deadline -- 
+- [x] BPOSD tiny zero -- 
+- [x] BPOSD exact o0 -- 
+- [x] BPOSD exact o1 -- 
+- [x] BPOSD exact o2 -- 
+- [x] BPOSD min_sum o0 -- 
+- [x] BPOSD min_sum o1 -- 
+- [x] BPOSD min_sum o2 -- 
+- [x] BPOSD LLR finite -- 
+- [x] BPOSD timed -- 
+- [x] BPOSD batch2d -- 
+- [x] Auto speed -- joint-bposd
+- [x] Auto accuracy -- joint-bposd
+- [x] Auto balanced -- joint-bposd
+- [x] Auto recommend -- joint-bposd
+- [x] Auto q70 zero -- 
+- [x] Auto q102 zero -- 
+- [x] Auto gross zero -- 
+- [x] TwoStage q70 zero -- 
+- [x] TwoStage q70 q0 faithful -- 
+- [x] TwoStage q70 q1 faithful -- 
+- [x] TwoStage q70 q2 faithful -- 
+- [x] TwoStage q70 q3 faithful -- 
+- [x] TwoStage q70 q4 faithful -- 
+- [x] TwoStage q102 zero -- 
+- [x] TwoStage q102 q0 faithful -- 
+- [x] TwoStage q102 q1 faithful -- 
+- [x] TwoStage q102 q2 faithful -- 
+- [x] TwoStage q102 q3 faithful -- 
+- [x] TwoStage q102 q4 faithful -- 
+- [x] TwoStage gross zero -- 
+- [x] TwoStage gross q0 faithful -- 
+- [x] TwoStage gross q1 faithful -- 
+- [x] TwoStage gross q2 faithful -- 
+- [x] TwoStage gross q3 faithful -- 
+- [x] TwoStage gross q4 faithful -- 
+- [x] SpaceTime 3r -- 210
+- [x] SpaceTime 5r -- 350
+- [x] from_checks tiny -- 
+- [x] dtype robust all -- 
+- [x] extreme er 1e-12 -- 
+- [x] extreme er 1e-09 -- 
+- [x] extreme er 0.1 -- 
+- [x] extreme er 0.25 -- 
+- [x] extreme er 0.49 -- 
+- [x] Q70 p50<1ms -- 0.10ms
+- [x] Q70 p95<2ms -- 0.11ms
+- [x] Q70 p99<5ms -- 0.16ms
+- [x] Q70 thr64>800 -- 9172/s
+- [x] Q70 thr512>800 -- 10122/s
+- [x] Q70 thr2000>800 -- 10093/s
+- [x] Q102 p50<1ms -- 0.22ms
+- [x] Q102 p95<2ms -- 0.32ms
+- [x] Q102 p99<5ms -- 0.36ms
+- [x] Q102 thr64>800 -- 4517/s
+- [x] Q102 thr512>800 -- 4532/s
+- [x] Q102 thr2000>800 -- 4535/s
+- [x] Gross p50<1ms -- 0.18ms
+- [x] Gross p95<2ms -- 0.19ms
+- [x] Gross p99<5ms -- 0.23ms
+- [x] Gross thr64>800 -- 5137/s
+- [x] Gross thr512>800 -- 5543/s
+- [x] Gross thr2000>800 -- 5512/s
+- [x] threads nq70 -- 
+- [x] threads nq102 -- 
+- [x] threads nq500 -- 
+- [x] threads nq2000 -- 
+- [x] threads nq17 in 1..8 -- 1
+- [x] threads nq50 in 1..8 -- 1
+- [x] threads nq100 in 1..8 -- 2
+- [x] threads nq200 in 1..8 -- 2
+- [x] threads nq1000 in 1..8 -- 4
+- [x] threads nq5000 in 1..8 -- 8
+- [x] scopes Q102 after 20 -- 
+- [x] latency count 20 -- n=20
+- [x] latency p95<2ms -- p95=151us
+- [x] latency mean>0 -- mean=143us
+- [x] latency reset -- 
+- [x] global latency -- 
+- [x] bridge limit simulator=29 -- 
+- [x] bridge limit qpu.aria-1=25 -- 
+- [x] bridge limit qpu.forte-1=36 -- 
+- [x] bridge limit ionq_simulator=29 -- 
+- [x] bridge sim ideal 29 -- 
+- [x] bridge live override -- 
+- [x] bridge cap 70->29 -- 
+- [x] bridge cap 3 stays -- 
+- [x] bridge body 29 -- 
+- [x] bridge drop out-of-range -- 
+- [x] gate fits true -- 
+- [x] gate fits false -- 
+- [x] bridge accept 29 -- 
+- [x] bridge reject msg -- 
+- [x] Gross w1 144 exhaustive -- 
+- [x] Gross w2 100 sampled -- 100/100
+- [x] Gross mem linear -- 100:0.012s 10:0.001s
+- [x] Wilson CI -- p=0.05 [0.02,0.11]
+- [x] Q102 w6 stress 200 -- 

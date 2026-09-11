@@ -1,0 +1,4 @@
+Backend,Config,Code,Throughput (shots/s)
+GPU (Tesla T4),Batch 2000,Q70,62826
+GPU (Tesla T4),Batch 2000,Q102,34402
+GPU (Tesla T4),Batch 2000,Gross,28643

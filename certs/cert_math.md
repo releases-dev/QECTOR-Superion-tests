@@ -1,0 +1,42 @@
+# Math Certification MAX-EXTENSIVE (2026-09-10T05:18:34.656637+00:00)
+
+GREEN 38 proofs
+
+- [x] phi(0)=inf - 
+- [x] phi(1e-6)>10 - 14.51
+- [x] phi(20)=0 - 
+- [x] phi continuity at 0.25 - LUT/exact seam
+- [x] phi involution grid 0.3..10 - max_err=2.5e-13
+- [x] phi involution dense 0.1..15 - max_err=4.9e-11
+- [x] phi monotonic decreasing - kernel shape
+- [x] LLR limits - LLR(1e-3)=6.907
+- [x] LLR monotonic - prior order
+- [x] LLR symmetry - 
+- [x] orthogonality Q102 - CSS
+- [x] audit Q102 - (102, 102)
+- [x] row-weight Q102 - w=8
+- [x] rank Q102 - rank=80
+- [x] hash Q102 - 2703550dd6bd7f46
+- [x] audit Q70 - (70, 70)
+- [x] hash distinct Q70 - 2c516ecb6cf72464
+- [x] audit Gross - (144, 144)
+- [x] hash distinct Gross - ad7cb784be57da54
+- [x] faults Q102 w1 full - 102/102 0.04s
+- [x] faults Q102 w2 full - 5151/5151 1.37s
+- [x] faults Q102 w3 sampled(2000) - 2000/2000 0.58s
+- [x] faults Q102 w4 sampled(1000) - 1000/1000 0.32s
+- [x] faults Q102 w5 sampled(500) - 500/500 0.22s
+- [x] faults Gross w1 full - 144/144 0.05s
+- [x] faults Gross w2 full cap 2000 sampled(2000) - 2000/2000 0.49s
+- [x] faults Q70 w1 full - 70/70 0.00s
+- [x] faults Q70 w2 full - 2415/2415 0.33s
+- [x] faults Q70 w3 sampled 1000 sampled(1000) - 1000/1000 0.16s
+- [x] batch B=8 - thr 1992/s
+- [x] batch B=64 - thr 4053/s
+- [x] batch B=512 - thr 4396/s
+- [x] zero->zero - 
+- [x] determinism x5 - 
+- [x] erasure all->zero - 
+- [x] batch B=8 thr>700 - 
+- [x] batch B=64 thr>700 - 
+- [x] batch B=512 thr>700 - 

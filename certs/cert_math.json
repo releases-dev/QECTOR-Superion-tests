@@ -1,0 +1,199 @@
+{
+  "suite": "math_verification MAX-EXTENSIVE v3",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-10T05:18:34.656637+00:00",
+  "decoder_version": "1.7.7-production",
+  "total_s": 12.940637350082397,
+  "checks": [
+    {
+      "name": "phi(0)=inf",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "phi(1e-6)>10",
+      "ok": true,
+      "detail": "14.51"
+    },
+    {
+      "name": "phi(20)=0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "phi continuity at 0.25",
+      "ok": true,
+      "detail": "LUT/exact seam"
+    },
+    {
+      "name": "phi involution grid 0.3..10",
+      "ok": true,
+      "detail": "max_err=2.5e-13"
+    },
+    {
+      "name": "phi involution dense 0.1..15",
+      "ok": true,
+      "detail": "max_err=4.9e-11"
+    },
+    {
+      "name": "phi monotonic decreasing",
+      "ok": true,
+      "detail": "kernel shape"
+    },
+    {
+      "name": "LLR limits",
+      "ok": true,
+      "detail": "LLR(1e-3)=6.907"
+    },
+    {
+      "name": "LLR monotonic",
+      "ok": true,
+      "detail": "prior order"
+    },
+    {
+      "name": "LLR symmetry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "orthogonality Q102",
+      "ok": true,
+      "detail": "CSS"
+    },
+    {
+      "name": "audit Q102",
+      "ok": true,
+      "detail": "(102, 102)"
+    },
+    {
+      "name": "row-weight Q102",
+      "ok": true,
+      "detail": "w=8"
+    },
+    {
+      "name": "rank Q102",
+      "ok": true,
+      "detail": "rank=80"
+    },
+    {
+      "name": "hash Q102",
+      "ok": true,
+      "detail": "2703550dd6bd7f46"
+    },
+    {
+      "name": "audit Q70",
+      "ok": true,
+      "detail": "(70, 70)"
+    },
+    {
+      "name": "hash distinct Q70",
+      "ok": true,
+      "detail": "2c516ecb6cf72464"
+    },
+    {
+      "name": "audit Gross",
+      "ok": true,
+      "detail": "(144, 144)"
+    },
+    {
+      "name": "hash distinct Gross",
+      "ok": true,
+      "detail": "ad7cb784be57da54"
+    },
+    {
+      "name": "faults Q102 w1 full",
+      "ok": true,
+      "detail": "102/102 0.04s"
+    },
+    {
+      "name": "faults Q102 w2 full",
+      "ok": true,
+      "detail": "5151/5151 1.37s"
+    },
+    {
+      "name": "faults Q102 w3 sampled(2000)",
+      "ok": true,
+      "detail": "2000/2000 0.58s"
+    },
+    {
+      "name": "faults Q102 w4 sampled(1000)",
+      "ok": true,
+      "detail": "1000/1000 0.32s"
+    },
+    {
+      "name": "faults Q102 w5 sampled(500)",
+      "ok": true,
+      "detail": "500/500 0.22s"
+    },
+    {
+      "name": "faults Gross w1 full",
+      "ok": true,
+      "detail": "144/144 0.05s"
+    },
+    {
+      "name": "faults Gross w2 full cap 2000 sampled(2000)",
+      "ok": true,
+      "detail": "2000/2000 0.49s"
+    },
+    {
+      "name": "faults Q70 w1 full",
+      "ok": true,
+      "detail": "70/70 0.00s"
+    },
+    {
+      "name": "faults Q70 w2 full",
+      "ok": true,
+      "detail": "2415/2415 0.33s"
+    },
+    {
+      "name": "faults Q70 w3 sampled 1000 sampled(1000)",
+      "ok": true,
+      "detail": "1000/1000 0.16s"
+    },
+    {
+      "name": "batch B=8",
+      "ok": true,
+      "detail": "thr 1992/s"
+    },
+    {
+      "name": "batch B=64",
+      "ok": true,
+      "detail": "thr 4053/s"
+    },
+    {
+      "name": "batch B=512",
+      "ok": true,
+      "detail": "thr 4396/s"
+    },
+    {
+      "name": "zero->zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "determinism x5",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "erasure all->zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "batch B=8 thr>700",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "batch B=64 thr>700",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "batch B=512 thr>700",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
