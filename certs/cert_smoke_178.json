@@ -1,0 +1,10 @@
+{
+  "suite": "smoke_test",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-10T01:30:32.290116+00:00",
+  "decoder_version": "1.7.8-production",
+  "machine": {
+    "platform": "Linux-4.4.0-26100-Microsoft-x86_64-with-glibc2.39"
+  },
+  "failures": []
+}

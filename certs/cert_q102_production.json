@@ -2,7 +2,7 @@
   "suite": "verify_q102_production MAX-EXTENSIVE v3",
   "status": "GREEN",
   "timestamp_utc": "2026-09-10T05:18:21.450066+00:00",
-  "decoder_version": "1.7.7-production",
+  "decoder_version": "1.7.8-production",
   "target_hardware": "IonQ Superion 256",
   "target_arch": "Walking Cat (arXiv:2604.19481)",
   "machine": {
@@ -44,7 +44,7 @@
     {
       "name": "version pinned",
       "ok": true,
-      "detail": "1.7.7-production"
+      "detail": "1.7.8-production"
     },
     {
       "name": "hardware pinned",

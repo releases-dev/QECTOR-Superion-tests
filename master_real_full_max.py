@@ -69,7 +69,7 @@ def main():
     def R(name, ok, detail=""):
         chk(name, ok, detail); results.append({"name":name,"ok":bool(ok),"detail":str(detail)}); return ok
     print("="*80)
-    print("  MASTER REAL FULL MAX — NO TRUNCATION — 10/10 EVERY ASPECT (qector-ionq 1.7.7)")
+    print("  MASTER REAL FULL MAX — NO TRUNCATION — 10/10 EVERY ASPECT (qector-ionq 1.7.8)")
     print(f"  Python {platform.python_version()} | {platform.platform()} | numpy {np.__version__}")
     print(f"  qector {qector_ionq.__version__} {qector_ionq.DECODER_VERSION} | {TARGET_HARDWARE}")
     print("="*80)
@@ -77,7 +77,7 @@ def main():
     # 0 — wheel & env & metadata
     print("\n[0] Wheel, env, metadata, license, hash")
     R("wheel import", True, qector_ionq.__version__)
-    R("version 1.7.7", "1.7.7" in qector_ionq.DECODER_VERSION)
+    R("version 1.7.8", "1.7.8" in qector_ionq.DECODER_VERSION)
     R("hardware Superion", "Superion" in TARGET_HARDWARE)
     R("arch Walking Cat", "Walking Cat" in qector_ionq.TARGET_ARCHITECTURE)
     R("pkg version match", getattr(qector_ionq,"__version__","") in qector_ionq.DECODER_VERSION)

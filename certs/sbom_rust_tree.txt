@@ -1,0 +1,197 @@
+﻿qector_ionq v1.7.8 (C:\Users\id01t\Documents\qector-ionq_decoder_frozen\qector-ionq_decoder_frozen)
+Γö£ΓöÇΓöÇ bumpalo v3.20.3
+Γö£ΓöÇΓöÇ core_affinity v0.8.3
+Γöé   Γö£ΓöÇΓöÇ num_cpus v1.17.0
+Γöé   ΓööΓöÇΓöÇ winapi v0.3.9
+Γö£ΓöÇΓöÇ fastrand v2.5.0
+Γö£ΓöÇΓöÇ fusion-blossom v0.2.12
+Γöé   Γö£ΓöÇΓöÇ cfg-if v1.0.4
+Γöé   Γö£ΓöÇΓöÇ chrono v0.4.45
+Γöé   Γöé   Γö£ΓöÇΓöÇ num-traits v0.2.19
+Γöé   Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ autocfg v1.5.1
+Γöé   Γöé   ΓööΓöÇΓöÇ windows-link v0.2.1
+Γöé   Γö£ΓöÇΓöÇ clap v4.6.6
+Γöé   Γöé   Γö£ΓöÇΓöÇ clap_builder v4.6.6
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstream v1.0.0
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstyle v1.0.14
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstyle-parse v1.0.0
+Γöé   Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ utf8parse v0.2.2
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstyle-query v1.1.5
+Γöé   Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ windows-sys v0.61.2
+Γöé   Γöé   Γöé   Γöé   Γöé       ΓööΓöÇΓöÇ windows-link v0.2.1
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstyle-wincon v3.0.11
+Γöé   Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstyle v1.0.14
+Γöé   Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ once_cell_polyfill v1.70.2
+Γöé   Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ windows-sys v0.61.2 (*)
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ colorchoice v1.0.5
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ is_terminal_polyfill v1.70.2
+Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ utf8parse v0.2.2
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ anstyle v1.0.14
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ clap_lex v1.1.0
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ strsim v0.11.1
+Γöé   Γöé   ΓööΓöÇΓöÇ clap_derive v4.6.4 (proc-macro)
+Γöé   Γöé       Γö£ΓöÇΓöÇ heck v0.5.0
+Γöé   Γöé       Γö£ΓöÇΓöÇ proc-macro2 v1.0.107
+Γöé   Γöé       Γöé   ΓööΓöÇΓöÇ unicode-ident v1.0.24
+Γöé   Γöé       Γö£ΓöÇΓöÇ quote v1.0.47
+Γöé   Γöé       Γöé   ΓööΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé       ΓööΓöÇΓöÇ syn v3.0.5
+Γöé   Γöé           Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé           Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé           ΓööΓöÇΓöÇ unicode-ident v1.0.24
+Γöé   Γö£ΓöÇΓöÇ core_affinity v0.8.3 (*)
+Γöé   Γö£ΓöÇΓöÇ derivative v2.2.0 (proc-macro)
+Γöé   Γöé   Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé   Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé   ΓööΓöÇΓöÇ syn v1.0.109
+Γöé   Γöé       Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé       Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé       ΓööΓöÇΓöÇ unicode-ident v1.0.24
+Γöé   Γö£ΓöÇΓöÇ lazy_static v1.5.0
+Γöé   Γö£ΓöÇΓöÇ libc v0.2.189
+Γöé   Γö£ΓöÇΓöÇ nonzero v0.2.0 (proc-macro)
+Γöé   Γöé   Γö£ΓöÇΓöÇ num-traits v0.2.19
+Γöé   Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ autocfg v1.5.1
+Γöé   Γöé   Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé   Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé   ΓööΓöÇΓöÇ syn v2.0.119
+Γöé   Γöé       Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé       Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé       ΓööΓöÇΓöÇ unicode-ident v1.0.24
+Γöé   Γö£ΓöÇΓöÇ parking_lot v0.12.5
+Γöé   Γöé   Γö£ΓöÇΓöÇ lock_api v0.4.14
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ scopeguard v1.2.0
+Γöé   Γöé   ΓööΓöÇΓöÇ parking_lot_core v0.9.12
+Γöé   Γöé       Γö£ΓöÇΓöÇ cfg-if v1.0.4
+Γöé   Γöé       Γö£ΓöÇΓöÇ smallvec v1.16.0
+Γöé   Γöé       ΓööΓöÇΓöÇ windows-link v0.2.1
+Γöé   Γö£ΓöÇΓöÇ pbr v1.1.1
+Γöé   Γöé   Γö£ΓöÇΓöÇ crossbeam-channel v0.5.17
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ crossbeam-utils v0.8.23
+Γöé   Γöé   Γö£ΓöÇΓöÇ libc v0.2.189
+Γöé   Γöé   ΓööΓöÇΓöÇ winapi v0.3.9
+Γöé   Γö£ΓöÇΓöÇ petgraph v0.6.5
+Γöé   Γöé   Γö£ΓöÇΓöÇ fixedbitset v0.4.2
+Γöé   Γöé   ΓööΓöÇΓöÇ indexmap v2.14.2
+Γöé   Γöé       Γö£ΓöÇΓöÇ equivalent v1.0.2
+Γöé   Γöé       ΓööΓöÇΓöÇ hashbrown v0.17.1
+Γöé   Γö£ΓöÇΓöÇ priority-queue v1.4.0
+Γöé   Γöé   ΓööΓöÇΓöÇ indexmap v1.9.3
+Γöé   Γöé       ΓööΓöÇΓöÇ hashbrown v0.12.3
+Γöé   Γöé       [build-dependencies]
+Γöé   Γöé       ΓööΓöÇΓöÇ autocfg v1.5.1
+Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   ΓööΓöÇΓöÇ autocfg v1.5.1
+Γöé   Γö£ΓöÇΓöÇ rand v0.8.8
+Γöé   Γöé   Γö£ΓöÇΓöÇ rand_chacha v0.3.1
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ ppv-lite86 v0.2.21
+Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ zerocopy v0.8.57
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ rand_core v0.6.4
+Γöé   Γöé   Γöé       ΓööΓöÇΓöÇ getrandom v0.2.17
+Γöé   Γöé   Γöé           ΓööΓöÇΓöÇ cfg-if v1.0.4
+Γöé   Γöé   ΓööΓöÇΓöÇ rand_core v0.6.4 (*)
+Γöé   Γö£ΓöÇΓöÇ rand_xoshiro v0.6.0
+Γöé   Γöé   ΓööΓöÇΓöÇ rand_core v0.6.4 (*)
+Γöé   Γö£ΓöÇΓöÇ rayon v1.12.0
+Γöé   Γöé   Γö£ΓöÇΓöÇ either v1.18.0
+Γöé   Γöé   ΓööΓöÇΓöÇ rayon-core v1.13.0
+Γöé   Γöé       Γö£ΓöÇΓöÇ crossbeam-deque v0.8.8
+Γöé   Γöé       Γöé   Γö£ΓöÇΓöÇ crossbeam-epoch v0.9.21
+Γöé   Γöé       Γöé   Γöé   ΓööΓöÇΓöÇ crossbeam-utils v0.8.23
+Γöé   Γöé       Γöé   ΓööΓöÇΓöÇ crossbeam-utils v0.8.23
+Γöé   Γöé       ΓööΓöÇΓöÇ crossbeam-utils v0.8.23
+Γöé   Γö£ΓöÇΓöÇ serde v1.0.229
+Γöé   Γöé   Γö£ΓöÇΓöÇ serde_core v1.0.229
+Γöé   Γöé   ΓööΓöÇΓöÇ serde_derive v1.0.229 (proc-macro)
+Γöé   Γöé       Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé       Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé       ΓööΓöÇΓöÇ syn v3.0.5 (*)
+Γöé   Γö£ΓöÇΓöÇ serde_json v1.0.151
+Γöé   Γöé   Γö£ΓöÇΓöÇ itoa v1.0.18
+Γöé   Γöé   Γö£ΓöÇΓöÇ memchr v2.8.3
+Γöé   Γöé   Γö£ΓöÇΓöÇ serde_core v1.0.229
+Γöé   Γöé   ΓööΓöÇΓöÇ zmij v1.0.23
+Γöé   Γö£ΓöÇΓöÇ urlencoding v2.1.3
+Γöé   ΓööΓöÇΓöÇ weak-table v0.3.2
+Γöé   [build-dependencies]
+Γöé   ΓööΓöÇΓöÇ cc v1.4.5
+Γöé       Γö£ΓöÇΓöÇ find-msvc-tools v0.1.12
+Γöé       ΓööΓöÇΓöÇ shlex v2.0.1
+Γö£ΓöÇΓöÇ libloading v0.8.9
+Γöé   ΓööΓöÇΓöÇ windows-link v0.2.1
+Γö£ΓöÇΓöÇ memmap2 v0.9.11
+Γö£ΓöÇΓöÇ ndarray v0.16.1
+Γöé   Γö£ΓöÇΓöÇ matrixmultiply v0.3.11
+Γöé   Γöé   ΓööΓöÇΓöÇ rawpointer v0.2.1
+Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   ΓööΓöÇΓöÇ autocfg v1.5.1
+Γöé   Γö£ΓöÇΓöÇ num-complex v0.4.6
+Γöé   Γöé   ΓööΓöÇΓöÇ num-traits v0.2.19 (*)
+Γöé   Γö£ΓöÇΓöÇ num-integer v0.1.47
+Γöé   Γöé   ΓööΓöÇΓöÇ num-traits v0.2.19 (*)
+Γöé   Γö£ΓöÇΓöÇ num-traits v0.2.19 (*)
+Γöé   ΓööΓöÇΓöÇ rawpointer v0.2.1
+Γö£ΓöÇΓöÇ numpy v0.22.1
+Γöé   Γö£ΓöÇΓöÇ libc v0.2.189
+Γöé   Γö£ΓöÇΓöÇ ndarray v0.16.1 (*)
+Γöé   Γö£ΓöÇΓöÇ num-complex v0.4.6 (*)
+Γöé   Γö£ΓöÇΓöÇ num-integer v0.1.47 (*)
+Γöé   Γö£ΓöÇΓöÇ num-traits v0.2.19 (*)
+Γöé   Γö£ΓöÇΓöÇ pyo3 v0.22.6
+Γöé   Γöé   Γö£ΓöÇΓöÇ cfg-if v1.0.4
+Γöé   Γöé   Γö£ΓöÇΓöÇ indoc v2.0.7 (proc-macro)
+Γöé   Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ rustversion v1.0.23 (proc-macro)
+Γöé   Γöé   Γö£ΓöÇΓöÇ libc v0.2.189
+Γöé   Γöé   Γö£ΓöÇΓöÇ memoffset v0.9.1
+Γöé   Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ autocfg v1.5.1
+Γöé   Γöé   Γö£ΓöÇΓöÇ once_cell v1.21.4
+Γöé   Γöé   Γö£ΓöÇΓöÇ pyo3-ffi v0.22.6
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ libc v0.2.189
+Γöé   Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ pyo3-build-config v0.22.6
+Γöé   Γöé   Γöé       Γö£ΓöÇΓöÇ once_cell v1.21.4
+Γöé   Γöé   Γöé       ΓööΓöÇΓöÇ target-lexicon v0.12.16
+Γöé   Γöé   Γöé       [build-dependencies]
+Γöé   Γöé   Γöé       ΓööΓöÇΓöÇ target-lexicon v0.12.16
+Γöé   Γöé   Γö£ΓöÇΓöÇ pyo3-macros v0.22.6 (proc-macro)
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ pyo3-macros-backend v0.22.6
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ heck v0.5.0
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ pyo3-build-config v0.22.6 (*)
+Γöé   Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ syn v2.0.119 (*)
+Γöé   Γöé   Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ pyo3-build-config v0.22.6 (*)
+Γöé   Γöé   Γöé   Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+Γöé   Γöé   Γöé   ΓööΓöÇΓöÇ syn v2.0.119 (*)
+Γöé   Γöé   ΓööΓöÇΓöÇ unindent v0.2.4
+Γöé   Γöé   [build-dependencies]
+Γöé   Γöé   ΓööΓöÇΓöÇ pyo3-build-config v0.22.6 (*)
+Γöé   ΓööΓöÇΓöÇ rustc-hash v1.1.0
+Γö£ΓöÇΓöÇ pyo3 v0.22.6 (*)
+Γö£ΓöÇΓöÇ rayon v1.12.0 (*)
+Γö£ΓöÇΓöÇ safetensors v0.8.0
+Γöé   Γö£ΓöÇΓöÇ hashbrown v0.16.1
+Γöé   Γöé   Γö£ΓöÇΓöÇ allocator-api2 v0.2.21
+Γöé   Γöé   Γö£ΓöÇΓöÇ equivalent v1.0.2
+Γöé   Γöé   Γö£ΓöÇΓöÇ foldhash v0.2.0
+Γöé   Γöé   ΓööΓöÇΓöÇ serde_core v1.0.229
+Γöé   Γö£ΓöÇΓöÇ serde v1.0.229 (*)
+Γöé   Γö£ΓöÇΓöÇ serde_json v1.0.151 (*)
+Γöé   ΓööΓöÇΓöÇ tempfile v3.27.0
+Γöé       Γö£ΓöÇΓöÇ fastrand v2.5.0
+Γöé       Γö£ΓöÇΓöÇ getrandom v0.4.3
+Γöé       Γöé   ΓööΓöÇΓöÇ cfg-if v1.0.4
+Γöé       Γö£ΓöÇΓöÇ once_cell v1.21.4
+Γöé       ΓööΓöÇΓöÇ windows-sys v0.61.2 (*)
+Γö£ΓöÇΓöÇ smallvec v1.16.0
+ΓööΓöÇΓöÇ thiserror v2.0.20
+    ΓööΓöÇΓöÇ thiserror-impl v2.0.20 (proc-macro)
+        Γö£ΓöÇΓöÇ proc-macro2 v1.0.107 (*)
+        Γö£ΓöÇΓöÇ quote v1.0.47 (*)
+        ΓööΓöÇΓöÇ syn v3.0.5 (*)

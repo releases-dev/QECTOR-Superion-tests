@@ -1,0 +1,17 @@
+﻿{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:e43f6302-966c-4812-8ede-32235b85cd1c",
+  "version": 1,
+  "metadata": {
+    "component": {"name": "qector-ionq", "version": "1.7.8", "type": "application"},
+    "timestamp": "2026-09-11T18:31:51.3117699+00:00"
+  },
+  "components": [
+    {"name": "qector_ionq", "version": "1.7.8", "type": "application", "purl": "pkg:pypi/qector-ionq@1.7.8"},
+    {"name": "numpy", "version": "2.4.6", "type": "library"},
+    {"name": "maturin", "version": "1.5.0", "type": "application"},
+    {"name": "pyo3", "version": "0.22", "type": "library"},
+    {"name": "fusion-blossom", "version": "0.2.12", "type": "library"}
+  ]
+}

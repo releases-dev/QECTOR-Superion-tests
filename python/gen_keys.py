@@ -3,7 +3,7 @@
 # All Rights Reserved. NDA evaluation only. Do not redistribute.
 """One-shot generator for the 8 IonQ evaluation keys (offline FNV-1a tags)."""
 
-SECRET = "qector-ionq-1.7.7-7day-eval-v1"
+SECRET = "qector-ionq-1.7.8-7day-eval-v1"
 
 
 def fnv1a64(data: bytes) -> int:

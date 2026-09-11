@@ -1,0 +1,9 @@
+{
+  "suite": "compute_certified_100",
+  "status": "GREEN",
+  "timestamp_utc": "2026-09-11T05:38:39.493044+00:00",
+  "lean": "QectorProofs.Basic 0 sorries",
+  "isabelle": "Qector_GF2.thy",
+  "compute": "w1/w2 exhaustive 100%",
+  "ok": true
+}

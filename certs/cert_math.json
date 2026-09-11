@@ -2,7 +2,7 @@
   "suite": "math_verification MAX-EXTENSIVE v3",
   "status": "GREEN",
   "timestamp_utc": "2026-09-10T05:18:34.656637+00:00",
-  "decoder_version": "1.7.7-production",
+  "decoder_version": "1.7.8-production",
   "total_s": 12.940637350082397,
   "checks": [
     {

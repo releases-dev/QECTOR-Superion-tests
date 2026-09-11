@@ -1,4 +1,4 @@
-# qector-ionq 1.7.7 — IonQ Superion 256 / Walking Cat — MAX-EXTENSIVE 10/10
+# qector-ionq 1.7.8 — IonQ Superion 256 / Walking Cat — MAX-EXTENSIVE 10/10
 
 **PROPRIETARY AND CONFIDENTIAL** — Guillaume Lessard / qector-decoder-v3  
 Ship **wheels only** under NDA. Do not distribute raw `.rs` sources.  
@@ -25,7 +25,7 @@ Ship **wheels only** under NDA. Do not distribute raw `.rs` sources.
 
 | Python | Windows `win_amd64` | Linux `manylinux_2_34_x86_64` | SHA256 |
 |--------|---------------------|-------------------------------|--------|
-| 3.9 | `qector_ionq-1.7.7-cp39-cp39-win_amd64.whl` (272KB) | `…-cp39-manylinux_2_34_x86_64.whl` (381KB) | `SHA256SUMS.txt` |
+| 3.9 | `qector_ionq-1.7.8-cp39-cp39-win_amd64.whl` (272KB) | `…-cp39-manylinux_2_34_x86_64.whl` (381KB) | `SHA256SUMS.txt` |
 | 3.10 | `cp310-win_amd64` | `cp310-manylinux` | |
 | 3.11 | `cp311-win_amd64` | `cp311-manylinux` | |
 | 3.12 | `cp312-win_amd64` | `cp312-manylinux` | |

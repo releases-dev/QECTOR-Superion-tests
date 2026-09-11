@@ -2,7 +2,7 @@
   "suite": "master_full_onpager MAX-EXTENSIVE 10/10",
   "status": "GREEN",
   "timestamp_utc": "2026-09-10T05:23:51.361929+00:00",
-  "decoder_version": "1.7.7-production",
+  "decoder_version": "1.7.8-production",
   "target_hardware": "IonQ Superion 256",
   "target_arch": "Walking Cat (arXiv:2604.19481)",
   "machine": {
@@ -18,10 +18,10 @@
     {
       "name": "wheel import",
       "ok": true,
-      "detail": "1.7.7"
+      "detail": "1.7.8"
     },
     {
-      "name": "version 1.7.7",
+      "name": "version 1.7.8",
       "ok": true,
       "detail": ""
     },

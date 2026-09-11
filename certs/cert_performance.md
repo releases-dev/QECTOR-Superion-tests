@@ -1,6 +1,6 @@
 # Performance Certification MAX-EXTENSIVE (2026-09-10T02:37:12.135828+00:00)
 
-Decoder 1.7.7-production | IonQ Superion 256 | status GREEN
+Decoder 1.7.8-production | IonQ Superion 256 | status GREEN
 
 | Threads | Q70/s | Q102/s | Gross/s |
 |---|---|---|---|

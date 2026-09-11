@@ -1,11 +1,11 @@
 # Q102 Production Certification MAX-EXTENSIVE (2026-09-10T05:18:21.450066+00:00)
 
-status GREEN | 1.7.7-production | 59/59 passed
+status GREEN | 1.7.8-production | 59/59 passed
 
 - [x] q102 dims 102/102 - 102/102
 - [x] q70 dims 70/70 - 70/70
 - [x] gross dims 144/144 - 144/144
-- [x] version pinned - 1.7.7-production
+- [x] version pinned - 1.7.8-production
 - [x] hardware pinned - IonQ Superion 256
 - [x] from_checks tiny 2x3 - 2/3
 - [x] unknown code raises - nope

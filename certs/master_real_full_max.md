@@ -2,8 +2,8 @@
 
 GREEN 205/205
 
-- [x] wheel import -- 1.7.7
-- [x] version 1.7.7 -- 
+- [x] wheel import -- 1.7.8
+- [x] version 1.7.8 -- 
 - [x] hardware Superion -- 
 - [x] arch Walking Cat -- 
 - [x] pkg version match -- 
